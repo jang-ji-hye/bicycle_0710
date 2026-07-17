@@ -4,9 +4,9 @@ import folium
 from folium.plugins import HeatMap, PolyLineTextPath, AntPath
 from streamlit_folium import st_folium
 
-st.set_page_config(page_title="지역을 바꾸는 데이터 읽기", layout="wide")
-st.title("🚲 지역을 바꾸는 데이터 읽기")
-st.caption("— 서울 따릉이로 보는 우리 동네")
+st.set_page_config(page_title="지혜가 만든 따릉이 데이터 읽기", layout="wide")
+st.title("🚲 지혜가 만든 따릉이 데이터 읽기")
+st.caption("— 따르릉 따르릉 비켜나세요로 보는 우리 동네")
 
 @st.cache_data
 def load_main():
